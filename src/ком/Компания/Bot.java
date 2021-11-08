@@ -10,7 +10,6 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 public class Bot extends DefaultAbsSender{
     public Bot(DefaultBotOptions options) {
         super(options);
-        System.out.println("Hello");
     }
 
     @Override
